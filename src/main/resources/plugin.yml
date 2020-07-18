@@ -1,0 +1,19 @@
+name: PLTrades
+version: 1.0
+main: ru.prisonlife.pltrades.Main
+api-version: 1.15
+author: rntsdkv
+
+commands:
+  trade:
+    description: Trade with player
+    permission: pltrades.trade
+    usage: /trade <player>
+  tradeaccept:
+    description: Accept trade
+    permission: pltrades.tradeaccept
+    usage: /tradeaccept
+  tradedecline:
+    description: Decline trade
+    permission: pltrades.tradedecline
+    usage: /tradedecline

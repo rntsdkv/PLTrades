@@ -1,0 +1,12 @@
+messages:
+  youAlreadyTrading: "&l&cВы уже отправили предложение о сделке!"
+  playerIsOffline: "&l&cИгрок не в сети!"
+  playerAlreadyRequested: "&l&cИгроку уже отправлено предложение о сделке!"
+  playerIsAlreadyTrading: "&l&cИгрок уже участвует в сделке!"
+  tradeRequest: "&l&6%player% предложил вам сделку"
+  requestTimeOut: "&l&cВремя предложения сделки истекло..."
+  haveNoRequest: "&l&cУ вас нет предложений о сделке!"
+  requestClose: "&l&cИгрок отказался от сделки..."
+  tradeClosed: "&l&cСделка разорвана!"
+  notEnoughtSlots: "&l&cУ вас недостаточно места в карманах! Сделка разорвана."
+  tradeFinished: "&l&6Сделка завершена!"
