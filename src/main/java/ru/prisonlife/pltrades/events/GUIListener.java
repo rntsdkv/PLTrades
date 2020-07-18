@@ -78,11 +78,19 @@ public class GUIListener implements Listener {
                 } else {
                     if (isTrader) {
                         Trader trader = trade.trader;
+                        if (trader.status == Status.NOT_READY) {
+                            event.setCancelled(true);
+                            return;
+                        }
                         trader.clearItems();
                         trader.putItem(event.getClickedInventory().getItem(slot));
                     }
                     else {
                         Trader recipient = trade.recipient;
+                        if (recipient.status == Status.NOT_READY) {
+                            event.setCancelled(true);
+                            return;
+                        }
                         recipient.clearItems();
                         recipient.putItem(event.getClickedInventory().getItem(slot));
                     }

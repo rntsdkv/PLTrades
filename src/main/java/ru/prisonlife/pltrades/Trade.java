@@ -143,6 +143,8 @@ public class Trade {
                 trader.sendMessage(colorize(message));
                 recipient.sendMessage(colorize(message));
             }, 100);
+        } else {
+            if (task.isSync()) task.cancel();
         }
     }
 
